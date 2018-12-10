@@ -1,0 +1,41 @@
+$fontSize: 16px;
+
+.navbar {
+  ul {
+    margin: 0px;
+    padding-inline-start: 0px;
+    li{
+  display: inline-block;
+  padding: 10px;
+        a{
+          font-size: $fontSize;
+          font-weight: bold;
+          color: #8E8E8E;
+          text-decoration: none;
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+        a:hover {
+          color: #333333;
+        }
+      }
+     }
+}
+
+.header {
+  padding: 5px;
+  a{
+    font-size: $fontSize;
+    font-weight: bold;
+    color: #8E8E8E;
+    text-decoration: none;
+    padding-top: 7px;
+    }
+  a:hover {
+    color: #333333;
+  }
+}
+
+.search {
+  padding-left: 15px;
+}

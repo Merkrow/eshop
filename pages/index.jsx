@@ -1,3 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react'
+import { render } from 'react-dom'
+
 import 'styles/index.scss';
 
-export default () => <div className="example">Hello World!</div>;
+import App from '../Components/App';
+
+export default () => <App />;
