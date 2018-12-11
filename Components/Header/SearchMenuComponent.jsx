@@ -11,7 +11,7 @@ export default class SearchMenuComponent extends Component {
 
   render() {
 		return (
-      <div className="header search input-group col-md-3">
+      <div className="logobar search input-group col-md-3">
 
         <div class="input-group-prepend">
           <span class="input-group-text" id="basic-addon1">Search</span>

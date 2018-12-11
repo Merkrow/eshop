@@ -1,6 +1,12 @@
 $fontSize: 16px;
 
+.container {
+padding: 0px;
+}
+
 .navbar {
+  padding: 8px 8px 0px 8px;
+  width: 100%;
   ul {
     margin: 0px;
     padding-inline-start: 0px;
@@ -22,7 +28,7 @@ $fontSize: 16px;
      }
 }
 
-.header {
+.logobar {
   padding: 5px;
   a{
     font-size: $fontSize;
@@ -37,5 +43,10 @@ $fontSize: 16px;
 }
 
 .search {
-  padding-left: 15px;
+  padding-left: 25px;
+}
+
+.header {
+  border-bottom: 1px solid;
+  border-color: #3333;
 }

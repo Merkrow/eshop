@@ -11,7 +11,7 @@ export default class LogoBar extends Component {
 
   render() {
 		return (
-      <div className="header col-md-6 nav justify-content-center">
+      <div className="logobar col-md-6 nav justify-content-center">
         <a href="#">{LOGOLINK}</a>
       </div>
 		)

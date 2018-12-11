@@ -12,7 +12,7 @@ export default class Header extends Component {
 
   render() {
 		return (
-      <div className= ".navbar-expand-md">
+      <div className= ".navbar-expand-md header">
         <TopMenu />
 	      <Navbar />
       </div>
